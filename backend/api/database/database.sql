@@ -10,6 +10,8 @@ DROP TABLE IF EXISTS students CASCADE;
 DROP TABLE IF EXISTS teachers CASCADE;
 DROP TABLE IF EXISTS assignments_attachments CASCADE;
 DROP TABLE IF EXISTS attendance;
+DROP TABLE IF EXISTS attendance_sessions;
+DROP TABLE IF EXISTS alerts;
 -- ================================
 -- Teachers table
 -- ================================
