@@ -15,7 +15,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./api:/app  # 👈 Mount your local code inside the container  
+      - ./api:/app  
       - /app/node_modules
   worker-1:
     build: ./api
